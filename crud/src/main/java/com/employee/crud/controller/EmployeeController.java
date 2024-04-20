@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
-@CrossOrigin(origins = "http://localhost")
+@CrossOrigin(origins = "*")
 @RestController
 public class EmployeeController {
 
